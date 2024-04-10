@@ -21,12 +21,7 @@ const generateAccessAndRefreshTokens = async(userId) => {
 }
 
 const registerUser = asyncHandler(async (req, res) => {
-  //Ask user for email, user name
-  //validation - not empty
-  //Check if that username and email is already there in db
-  //If yes -  existing user, if not continue
-  //take email and username from user and password
-  //register the user on that email
+
 
   const { fullName, email, username, password } = req.body;
   console.log("Email:", email);
